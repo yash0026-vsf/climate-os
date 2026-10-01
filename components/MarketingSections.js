@@ -59,7 +59,7 @@ export function SavingsCalculator() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-700">Interactive Demo</div>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Calculate your impact.</h2>
-            <p className="mt-4 text-base leading-7 text-slate-600">Estimate the environmental and financial savings of routing your AI workloads dynamically with ClimaOS.</p>
+            <p className="mt-4 text-base leading-7 text-slate-600">Estimate the environmental and financial savings of routing your AI workloads dynamically with ClimateOS.</p>
             
             <div className="mt-10 rounded-2xl bg-white p-6 border border-slate-200 shadow-sm">
               <label className="block text-sm font-semibold text-slate-900">Estimated Monthly GPU Hours</label>
@@ -119,7 +119,7 @@ export function SocialProof() {
         <div className="mt-16 rounded-2xl border border-blue-100 bg-white p-8 text-left md:p-10 max-w-4xl mx-auto shadow-lg shadow-blue-900/5 relative">
           <svg className="absolute top-6 left-6 h-12 w-12 text-blue-100" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"/></svg>
           <div className="relative z-10 pl-8 md:pl-12">
-            <p className="text-xl font-medium italic leading-relaxed text-slate-700">"ClimaOS completely changed how we think about compute. By routing our nightly model training based on grid intensity, we reduced our AI footprint by 40% without any impact on delivery times."</p>
+            <p className="text-xl font-medium italic leading-relaxed text-slate-700">"ClimateOS completely changed how we think about compute. By routing our nightly model training based on grid intensity, we reduced our AI footprint by 40% without any impact on delivery times."</p>
             <div className="mt-8 flex items-center gap-4">
               <div className="h-12 w-12 rounded-full bg-gradient-to-tr from-blue-500 to-emerald-400 p-0.5">
                 <div className="h-full w-full rounded-full border-2 border-white bg-slate-200 object-cover flex items-center justify-center text-xs font-bold text-slate-500">SJ</div>
@@ -152,7 +152,7 @@ export function Integrations() {
       <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-24">
          <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-slate-950">Works with your existing stack</h2>
-          <p className="mt-4 text-base text-slate-600">ClimaOS integrates directly with major cloud providers and orchestrators.</p>
+          <p className="mt-4 text-base text-slate-600">ClimateOS integrates directly with major cloud providers and orchestrators.</p>
         </div>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:gap-6 relative z-10">
           {integrations.map(item => (
@@ -168,9 +168,9 @@ export function Integrations() {
 
 export function FAQ() {
   const faqs = [
-    { q: "Does ClimaOS add latency to my workloads?", a: "No. ClimaOS makes decisions asynchronously and caches environmental data to ensure routing logic takes less than 50ms." },
+    { q: "Does ClimateOS add latency to my workloads?", a: "No. ClimateOS makes decisions asynchronously and caches environmental data to ensure routing logic takes less than 50ms." },
     { q: "How do you measure real-time carbon intensity?", a: "We ingest data from Electricity Maps, WattTime, and local grid operators to provide sub-hourly carbon intensity across 150+ regions." },
-    { q: "What happens if a recommended region goes down?", a: "ClimaOS respects operational constraints first. If a region fails health checks, it is immediately removed from the eligible pool." }
+    { q: "What happens if a recommended region goes down?", a: "ClimateOS respects operational constraints first. If a region fails health checks, it is immediately removed from the eligible pool." }
   ];
   return (
     <section id="faq" className="border-t border-slate-200 bg-slate-50/70">
@@ -256,7 +256,7 @@ export function BookDemoCTA() {
       
       <div className="mx-auto max-w-4xl px-5 py-24 text-center lg:px-8 lg:py-28 relative z-10">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-5xl drop-shadow-sm">Ready to decarbonize your infrastructure?</h2>
-        <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto font-medium">Talk to our experts to see how ClimaOS can fit into your existing stack and help you hit your sustainability goals.</p>
+        <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto font-medium">Talk to our experts to see how ClimateOS can fit into your existing stack and help you hit your sustainability goals.</p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <button className="h-12 w-full sm:w-auto rounded-lg bg-white px-8 text-sm font-bold text-blue-700 shadow-lg shadow-blue-900/20 transition hover:bg-slate-50 hover:scale-105">Book a Demo</button>
           <button className="h-12 w-full sm:w-auto rounded-lg border border-blue-400/50 bg-blue-800/30 px-8 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-blue-800/50 hover:border-blue-300">View Documentation</button>
@@ -265,4 +265,5 @@ export function BookDemoCTA() {
     </section>
   );
 }
+
 
