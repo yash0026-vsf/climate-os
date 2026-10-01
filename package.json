@@ -1,5 +1,5 @@
 {
-  "name": "routezero",
+  "name": "climate-os",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,4 +22,5 @@
     "tailwindcss": "^4"
   }
 }
+
 

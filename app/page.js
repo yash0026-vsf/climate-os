@@ -287,7 +287,7 @@ export default function LandingPage() {
               </h1>
 
               <p className="mt-5 max-w-[560px] text-[16px] leading-7 text-slate-600 sm:text-[18px]">
-                RouteZero places AI workloads across data centers using carbon intensity, water stress, heat reuse, and operational constraints.
+                ClimateOS places AI workloads across data centers using carbon intensity, water stress, heat reuse, and operational constraints.
               </p>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
@@ -341,7 +341,7 @@ export default function LandingPage() {
             <div className="max-w-3xl">
               <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-600">Product</div>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">A climate-conscious control plane for compute.</h2>
-              <p className="mt-4 text-base leading-7 text-slate-600">RouteZero sits between your workload pipeline and cloud infrastructure, turning workload requirements and environmental conditions into an auditable routing decision.</p>
+              <p className="mt-4 text-base leading-7 text-slate-600">ClimateOS sits between your workload pipeline and cloud infrastructure, turning workload requirements and environmental conditions into an auditable routing decision.</p>
             </div>
 
             <div className="mt-12 grid gap-4 lg:grid-cols-4">
@@ -368,7 +368,7 @@ export default function LandingPage() {
                   <div className="text-[10px] font-semibold uppercase tracking-[0.12em] text-slate-400">Routing engine</div>
                   <div className="mt-1 text-lg font-bold text-slate-950">Multi-variable decisions, not carbon alone.</div>
                 </div>
-                <div className="text-sm leading-6 text-slate-600">Carbon and water can move in opposite directions. RouteZero keeps both in the decision and surfaces locations where compute heat can be reused.</div>
+                <div className="text-sm leading-6 text-slate-600">Carbon and water can move in opposite directions. ClimateOS keeps both in the decision and surfaces locations where compute heat can be reused.</div>
                 <div className="rounded-xl border border-emerald-200 bg-white p-4">
                   <div className="text-[10px] font-semibold uppercase tracking-[0.12em] text-emerald-600">Decision output</div>
                   <div className="mt-1 text-sm font-bold text-slate-950">Eligible target + rationale + environmental delta</div>
@@ -408,7 +408,7 @@ export default function LandingPage() {
               <div>
                 <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-600">Impact</div>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Measure the effect of every routing decision.</h2>
-                <p className="mt-4 max-w-xl text-base leading-7 text-slate-600">RouteZero keeps the environmental delta alongside the route itself, making the operational outcome visible to engineering, sustainability, and compliance teams.</p>
+                <p className="mt-4 max-w-xl text-base leading-7 text-slate-600">ClimateOS keeps the environmental delta alongside the route itself, making the operational outcome visible to engineering, sustainability, and compliance teams.</p>
               </div>
 
               <div className="grid gap-4 sm:grid-cols-2">
@@ -439,7 +439,7 @@ export default function LandingPage() {
             <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
               <div className="max-w-3xl">
                 <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-600">Docs</div>
-                <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Connect RouteZero to the workloads you already run.</h2>
+                <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Connect ClimateOS to the workloads you already run.</h2>
                 <p className="mt-4 text-base leading-7 text-slate-600">The routing layer is designed to sit beside your existing ML and compute workflows rather than replace them.</p>
               </div>
               <a href="/dashboard" className="inline-flex items-center gap-2 self-start rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50 md:self-auto">Open workspace <Arrow /></a>
@@ -488,6 +488,7 @@ export default function LandingPage() {
     </div>
   );
 }
+
 
 
 
