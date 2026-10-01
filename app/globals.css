@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+html {
+  background: #f8fafc;
+}
+
+body {
+  background: #f8fafc;
+  color: #1e293b;
+  font-family: var(--font-sans), "Inter", system-ui, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
+
+.overflow-x-auto {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  height: 6px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+
+
+
+.hero-landing {
+  isolation: isolate;
+}
+
+.hero-scene {
+  background-image:
+    url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2400&q=90");
+  background-size: cover;
+  background-position: center 54%;
+  filter: saturate(1.08) contrast(1.02);
+}
+
+.hero-scene-fade {
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.94) 24%, rgba(255,255,255,0.72) 41%, rgba(255,255,255,0.24) 57%, rgba(255,255,255,0) 72%),
+    linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02));
+}
+
+.laptop-device {
+  transform: perspective(1500px) rotateX(2deg) rotateY(5deg) rotateZ(2deg) translateY(82px);
+  transform-origin: center bottom;
+  filter: drop-shadow(0 30px 42px rgba(15,23,42,0.14));
+}
+
+.premium-screen {
+  aspect-ratio: 16 / 10;
+}
+
+
+
+.hero-auth-card {
+  transform: translate(-14%, 3%);
+}
+
+@media (max-width: 767px) {
+  .hero-landing {
+    min-height: auto;
+  }
+
+  .hero-scene {
+    background-position: 65% center;
+  }
+
+  .hero-scene-fade {
+    background:
+      linear-gradient(90deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.78) 54%, rgba(255,255,255,0.2) 100%),
+      linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.06));
+  }
+
+  .laptop-device {
+    transform: rotate(-2deg) translateY(42px);
+  }
+
+  .hero-auth-card {
+    display: none;
+  }
+}
