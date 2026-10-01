@@ -710,7 +710,7 @@ export default function HomePage() {
           id: "#R-9043",
           time: "Just now",
           name: workloadName,
-          desc: `${workloadCategory} · routed by ClimateOS`,
+          desc: `${workloadCategory} · routed by RouteZero`,
           dest: "EU-North-1 (Stockholm)",
           destColor: "emerald",
           carbon: "-74.1%",
@@ -1023,4 +1023,5 @@ function UserFooter() {
     </div>
   );
 }
+
 

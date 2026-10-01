@@ -1,10 +1,10 @@
-# ClimateOS
+# RouteZero
 
-ClimateOS is a climate-conscious workload routing control plane for AI and other delay-tolerant compute.
+RouteZero is a climate-conscious workload routing control plane for AI and other delay-tolerant compute.
 
 ## The problem
 
-Cloud schedulers typically optimize around availability, cost, or latency. ClimateOS is designed to add environmental and operational signals to that decision:
+Cloud schedulers typically optimize around availability, cost, or latency. RouteZero is designed to add environmental and operational signals to that decision:
 
 - Carbon intensity
 - Regional water stress
@@ -144,6 +144,7 @@ npm run build
 ```
 ## Map asset attribution
 
-The dashboard routing map uses the open-source `simple-world-map` SVG by Al MacDonald / Fritz Lekschas, distributed under CC BY-SA 3.0. The asset is stored locally at `public/world-map.svg` so the demo does not depend on a remote map request. The map is used as the geographic base layer while ClimateOS renders its workload nodes and route overlays separately.
+The dashboard routing map uses the open-source `simple-world-map` SVG by Al MacDonald / Fritz Lekschas, distributed under CC BY-SA 3.0. The asset is stored locally at `public/world-map.svg` so the demo does not depend on a remote map request. The map is used as the geographic base layer while RouteZero renders its workload nodes and route overlays separately.
+
 
 

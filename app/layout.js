@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "ClimateOS - Compute Sustainability Platform",
+  title: "RouteZero - Compute Sustainability Platform",
   description:
     "Autonomous multi-region compute routing optimized for carbon, water, and thermal efficiency. CSRD-compliant sustainability intelligence.",
 };
@@ -29,5 +29,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
 
 
